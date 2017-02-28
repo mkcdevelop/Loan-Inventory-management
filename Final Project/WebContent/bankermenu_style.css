@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+.banker_menu{
+	height :40px;
+	line-height:40px;
+	colour red;
+	position:relative;
+	font-family:Arial,sans-serif;
+	fontsize:15px;
+}
+
+.banker_menu ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+.banker_menu ul li{
+	padding:0px;
+	margin:0px;
+	border-right:1px solid black;
+	float:left;
+	background:black;
+}
+
+.banker_menu ul li a{
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding:0 25px;
+}
+
+.banker_menu ul li a:hover{
+	background:lightblue;
+	color:#000;
+	
+}
+body{
+	background-color: lightgreen;
+}
